@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-gradient {
+  background: linear-gradient(45deg, #004B40, #004B40);
+}
+
+.bg-gradient:hover {
+  background: linear-gradient(45deg, #004B40, #004B40) !important;
+}
+
+.bg-modal-image {
+  background-image: url("../public/assests/Base.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.ant-modal-content {
+  padding: 0px !important;
+  border-radius: 20px !important;
+}
+
+.bg-button {
+  background-color: rgba(57, 181, 74, 0.4);
+  transition: all 0.3s ease;
+}
+
+.bg-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.bg-delete {
+  background-color: rgba(216, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.bg-delete:hover {
+  background-color: rgba(216, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.cancel-button {
+  background: rgba(165, 165, 175, 1);
+  transition: all 0.3s ease;
+}
+
+.cancel-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+
+.delete-button {
+  background-color: rgba(216, 0, 0, 1);
+  transition: all 0.3s ease;
+}
+
+.delete-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.ant-layout-sider {
+  background-color: #015249 !important;
+  max-width: 280px !important;
+  min-width: 280px !important;
+  width: 280px !important;
+  border-top-right-radius: 20px;
+}
